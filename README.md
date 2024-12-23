@@ -5,7 +5,8 @@ yang bisa di lihat disini -> [`Scrapping_BMKG`](https://github.com/Tooya12/Scrap
 
 TextUserInterface-BMKG ini menggunakan Kode Wilayah Administrasi IV [`Kepmendagri-2022`](kepmendagri-2022.json)
 Terimakasih kepada [`cahyadsn`](https://github.com/cahyadsn/wilayah) untuk data wilayah.
-Saya juga menyediakan Kode Wilayah Administrasi IV dalam bentuk csv dsn json di sini -> [`Kode Wilayah`](https://github.com/Tooya12/Kode-Wilayah-Indonesia)
+
+Saya juga menyediakan Kode Wilayah dalam bentuk csv dsn json di sini -> [`Kode Wilayah`](https://github.com/Tooya12/Kode-Wilayah-Indonesia)
 
 ## Installasi
 Pastikan menggunakan Python 3.9+
@@ -28,32 +29,32 @@ Data BMKG akan di perbaharui setiap 10 menit saat anda menjalankan program nya.
 Contoh Tampilan Data Cuaca :
 
 ```bash
-                        Prakiraan Cuaca BMKG
-           Jawa Barat - Kota Bogor - Bogor Barat - Loji
+                Prakiraan Cuaca BMKG
+    Jawa Barat - Kota Bogor - Bogor Barat - Loji
 
-                      Selsa 24 Desember 2024
-┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃                          03:00                            ┃
-┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
-│ Cuaca            : Cerah Berawan                          │
-│ Suhu             : 29 °C                                  │
-│ Tutupan Awan     : 76%                                    │
-│ Jarak Pandang    : < 10 km                                │
-│ Kelembapan Udara : 74%                                    │
-│ Kecepatan Angin  : 7.5 km/jam                             │
-│ Arah Angin       : Barat Laut                             │
-└───────────────────────────────────────────────────────────┘
-┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃                          06:00                            ┃
-┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
-│ Cuaca            : Hujan Sedang                           │
-│ Suhu             : 25 °C                                  │
-│ Tutupan Awan     : 100%                                   │
-│ Jarak Pandang    : < 6 km                                 │
-│ Kelembapan Udara : 86%                                    │
-│ Kecepatan Angin  : 6.5 km/jam                             │
-│ Arah Angin       : Selatan                                │
-└───────────────────────────────────────────────────────────┘
+               Selsa 24 Desember 2024
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃                    03:00                            ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│ Cuaca            : Cerah Berawan                    │
+│ Suhu             : 29 °C                            │
+│ Tutupan Awan     : 76%                              │
+│ Jarak Pandang    : < 10 km                          │
+│ Kelembapan Udara : 74%                              │
+│ Kecepatan Angin  : 7.5 km/jam                       │
+│ Arah Angin       : Barat Laut                       │
+└─────────────────────────────────────────────────────┘
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃                    06:00                            ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│ Cuaca            : Hujan Sedang                     │
+│ Suhu             : 25 °C                            │
+│ Tutupan Awan     : 100%                             │
+│ Jarak Pandang    : < 6 km                           │
+│ Kelembapan Udara : 86%                              │
+│ Kecepatan Angin  : 6.5 km/jam                       │
+│ Arah Angin       : Selatan                          │
+└─────────────────────────────────────────────────────┘
 ```
 Ketik help untuk menampilkan command yang tersedia.
 
