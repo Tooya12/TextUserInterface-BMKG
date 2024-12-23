@@ -11,7 +11,7 @@ Saya juga menyediakan Kode Wilayah Administrasi IV dalam bentuk csv dsn json di 
 Pastikan menggunakan Python 3.9+
 
 ```bash
-   pip install -r requiretments.txt
+   pip install -r requirements.txt
 ```
 
 ## Penggunaan
@@ -32,28 +32,28 @@ Contoh Tampilan Data Cuaca :
            Jawa Barat - Kota Bogor - Bogor Barat - Loji
 
                       Selsa 24 Desember 2024
-┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃                             03:00                              ┃
-┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
-│ Cuaca            : Cerah Berawan                               │
-│ Suhu             : 29 °C                                       │
-│ Tutupan Awan     : 76%                                         │
-│ Jarak Pandang    : < 10 km                                     │
-│ Kelembapan Udara : 74%                                         │
-│ Kecepatan Angin  : 7.5 km/jam                                  │
-│ Arah Angin       : Barat Laut                                  │
-└────────────────────────────────────────────────────────────────┘
-┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃                             06:00                              ┃
-┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
-│ Cuaca            : Hujan Sedang                                │
-│ Suhu             : 25 °C                                       │
-│ Tutupan Awan     : 100%                                        │
-│ Jarak Pandang    : < 6 km                                      │
-│ Kelembapan Udara : 86%                                         │
-│ Kecepatan Angin  : 6.5 km/jam                                  │
-│ Arah Angin       : Selatan                                     │
-└────────────────────────────────────────────────────────────────┘
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃                          03:00                            ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│ Cuaca            : Cerah Berawan                          │
+│ Suhu             : 29 °C                                  │
+│ Tutupan Awan     : 76%                                    │
+│ Jarak Pandang    : < 10 km                                │
+│ Kelembapan Udara : 74%                                    │
+│ Kecepatan Angin  : 7.5 km/jam                             │
+│ Arah Angin       : Barat Laut                             │
+└───────────────────────────────────────────────────────────┘
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃                          06:00                            ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│ Cuaca            : Hujan Sedang                           │
+│ Suhu             : 25 °C                                  │
+│ Tutupan Awan     : 100%                                   │
+│ Jarak Pandang    : < 6 km                                 │
+│ Kelembapan Udara : 86%                                    │
+│ Kecepatan Angin  : 6.5 km/jam                             │
+│ Arah Angin       : Selatan                                │
+└───────────────────────────────────────────────────────────┘
 ```
 Ketik help untuk menampilkan command yang tersedia.
 
